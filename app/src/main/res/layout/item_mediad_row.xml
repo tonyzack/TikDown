@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/download_card"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/dark_accent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/video_image_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/video_image"
+                android:layout_width="80dp"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"
+                android:src="@color/dark_accent2"/>
+
+            <ImageView
+                android:id="@+id/play_ic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:tint="@android:color/white"
+                android:src="@drawable/ic_play"/>
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nova_bold"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text=""
+                android:background="@drawable/gradian_2"/>
+
+        </FrameLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/video_image_container"
+            android:orientation="vertical"
+            android:src="@color/dark_accent2" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pic"
+            android:layout_alignBottom="@+id/pic"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/more"
+            android:layout_toEndOf="@id/pic"
+            android:ellipsize="end"
+            android:fontFamily="@font/nova_bold"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/pic"
+            android:layout_below="@id/pic"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:fontFamily="@font/nova_reg"
+            android:textSize="13sp"
+            android:textColor="@color/placeholder_bg" />
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:padding="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="3dp"
+            app:tint="@color/placeholder_bg"
+            android:src="@drawable/ic_more2"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="dismiss">Mengabaikan</string>
+
+    <string name="continue_">Terus</string>
+
+
+    <string name="network_error">Tidak dapat terhubung. Silakan coba lagi</string>
+    <string name="unknown_error">Terjadi kesalahan. Silakan coba lagi nanti</string>
+
+    <string name="no_app">Tidak ada aplikasi email yang diinstal.</string>
+    <string name="feedback">Umpan balik</string>
+    <string name="ww">Kami menyambut umpan balik Anda</string>
+
+
+    <string name="tiktok_not_installed">TikTok tidak diinstal</string>
+    <string name="downloaded">Download!</string>
+    <string name="how_to_download">Cara Mengunduh</string>
+
+    <string name="delete_video_confirm">Apakah Anda ingin menghapus file ini?</string>
+    <string name="open_tiktok_header">Anda tidak memiliki tautan di clipboard</string>
+    <string name="open_tiktok_message">Buka aplikasi TikTok dan salin tautan dari menu \'Bagikan\' terlebih dahulu</string>
+    <string name="DOWNLOAD">MENGUNDUH</string>
+    <string name="downloaded_">Download</string>
+    <string name="delete">Menghapus</string>
+    <string name="send">Kirim</string>
+    <string name="rate_us">Nilai kami</string>
+    <string name="info">Info</string>
+
+    <string name="report_a_problem">Melaporkan masalah</string>
+    <string name="help_center">Pusat bantuan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="share_app">Bagikan aplikasi</string>
+    <string name="share_app_txt">share</string>
+    <string name="no_file_found">tidak ada file yang ditemukan</string>
+    <string name="do_you_like_tikfollowers">Apakah Anda Suka TikFans 😍?</string>
+    <string name="nope">Tidak 👎</string>
+    <string name="love_it">Ya 👍</string>
+
+    <string name="paste_tiktok_video_link_here">Tempel tautan video TikTok di sini</string>
+    <string name="checking_link">Memeriksa tautan…</string>
+    <string name="completed">Selesai!</string>
+    <string name="support">Dukung</string>
+    <string name="about">Sekitar</string>
+    <string name="v_h1">Buka video yang Anda inginkan di TikTok dan ketuk ikon Bagikan</string>
+    <string name="v_h2">Pilih \'Salin tautan\'</string>
+    <string name="v_h3">Buka aplikasi \'TikFans\', kembali ke layar ini dan mulai unduh</string>
+    <string name="ok">Oke</string>
+    <string name="close">TUTUP</string>
+
+    <string name="search_music_on">Cari Musik Di…</string>
+    <string name="no_watermark_video">Video tanpa tanda air</string>
+    <string name="video_with_watermark">Video dengan cap air</string>
+    <string name="share">Bagi</string>
+    <string name="view_on_tiktok">Lihat di TikTok</string>
+    <string name="search_video_music">Cari musik video</string>
+    <string name="close_">Tutup</string>
+    <string name="nf_md">File tidak ditemukan. File telah dihapus atau dipindahkan</string>
+    <string name="provide_Valid_link">Harap berikan tautan video TikTok yang valid</string>
+    <string name="open_ttk">Buka TikTok</string>
+
+    <string name="home">Beranda</string>
+
+    <string name="more">Lebih</string>
+    <string name="help">Tolong</string>
+
+</resources>

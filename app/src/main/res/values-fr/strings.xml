@@ -1,0 +1,71 @@
+<resources>
+
+    <string name="dismiss">Annuler</string>
+
+    <string name="continue_">Continuer</string>
+
+
+    <string name="network_error">Impossible de se connecter. Veuillez réessayer</string>
+    <string name="unknown_error">Une erreur s\’est produite. Veuillez réessayer plus tard</string>
+
+    <string name="no_app">Aucune application de messagerie n\’est installée.</string>
+    <string name="feedback">Feedback</string>
+    <string name="ww">Nous apprécions vos commentaires</string>
+
+
+    <string name="tiktok_not_installed">TikTok non installé</string>
+    <string name="downloaded">Téléchargé!</string>
+    <string name="how_to_download">Comment télécharger</string>
+
+    <string name="delete_video_confirm">Voulez-vous supprimer ce fichier ?</string>
+    <string name="open_tiktok_header">Vous n\’avez pas de lien dans le presse-papiers</string>
+    <string name="open_tiktok_message">Ouvrez l\’application TikTok et copiez le lien dans le menu \'Partager\'</string>
+
+    <string name="DOWNLOAD">TELECHARGER</string>
+    <string name="downloaded_">Téléchargés</string>
+    <string name="delete">Supprimer</string>
+    <string name="send">Envoyer</string>
+
+    <string name="rate_us">Évaluez-nous</string>
+    <string name="info">Info</string>
+
+    <string name="report_a_problem">Signaler un problème</string>
+    <string name="help_center">Centre d\’aide</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="share_app">Partager l\’application</string>
+
+    <string name="share_app_txt">share</string>
+    <string name="no_file_found">aucun fichier trouvé</string>
+
+    <string name="do_you_like_tikfollowers">Aimez-vous TikFans 😍 ?</string>
+    <string name="nope">Non 👎</string>
+    <string name="love_it">Oui 👍</string>
+
+    <string name="paste_tiktok_video_link_here">Coller le lien vidéo TikTok ici</string>
+    <string name="checking_link">Vérification...</string>
+    <string name="completed">Terminé!</string>
+    <string name="support">Support</string>
+    <string name="about">À propos</string>
+    <string name="v_h1">Allez sur la vidéo de votre choix sur TikTok et appuyez sur l\’icône Partager</string>
+    <string name="v_h2">Sélectionnez \'Copier le lien\'</string>
+    <string name="v_h3">Ouvrez l\’application \'TikFans\', revenez à cet écran et démarrez le téléchargement</string>
+    <string name="ok">OK</string>
+    <string name="close">FERMER</string>
+
+    <string name="search_music_on">Rechercher de la musique sur…</string>
+    <string name="no_watermark_video">Vidéo sans filigrane</string>
+    <string name="video_with_watermark">Vidéo avec filigrane</string>
+    <string name="share">Partager</string>
+    <string name="view_on_tiktok">Voir sur TikTok</string>
+    <string name="search_video_music">Rechercher de la musique</string>
+    <string name="close_">Fermer</string>
+    <string name="nf_md">Fichier introuvable. Le fichier a été supprimé ou déplacé</string>
+    <string name="provide_Valid_link">Veuillez fournir un lien vidéo TikTok valide</string>
+    <string name="open_ttk">Ouvrir TikTok</string>
+
+    <string name="home">Accueil</string>
+
+    <string name="more">Plus</string>
+    <string name="help">Aide</string>
+
+</resources>

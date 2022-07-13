@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_accent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/nova_bold"
+        android:text="@string/report_a_problem"/>
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="8"
+        android:padding="8dp"
+        android:maxLength="1000"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:background="#EFEFEF"
+        android:fontFamily="@font/nova_reg"
+        android:gravity="start"
+        android:hint="@string/ww"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:layout_marginEnd="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/nova_bold"
+            android:text="@string/dismiss"/>
+        <TextView
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/nova_bold"
+            android:text="@string/send"/>
+    </LinearLayout>
+
+</LinearLayout>

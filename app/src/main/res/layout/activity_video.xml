@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".activities.VideoActivity">
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/adContainerView"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="@dimen/menu_ic"
+        android:layout_height="@dimen/menu_ic"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/button_round_tr"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/menu_ic"
+            android:layout_height="@dimen/menu_ic"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_round_tr"
+            android:padding="6dp"
+            android:src="@drawable/ic_share_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="@dimen/menu_ic"
+            android:layout_height="@dimen/menu_ic"
+            android:background="@drawable/button_round_tr"
+            android:padding="6dp"
+            android:src="@drawable/ic_delete_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/adContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <FrameLayout
+            android:id="@+id/ad_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ad_banner_h"
+            android:background="@color/dark_accent">
+
+            <TextView
+                android:id="@+id/ad_placeholder_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="#A6A6A6"
+                android:fontFamily="@font/nova_reg"
+                android:textSize="14sp"
+                android:text="AD"
+                android:padding="7dp"
+                android:background="@drawable/ad_placeholder_round"/>
+
+        </FrameLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

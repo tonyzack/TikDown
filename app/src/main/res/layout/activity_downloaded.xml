@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toTopOf="@id/adContainerView"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toTopOf="@id/adContainerView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/colorPrimary"
+            android:visibility="visible"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_empty"
+                app:tint="@color/ic_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nova_bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:text="@string/no_file_found"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/empty_btn"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingBottom="10dp"-->
+<!--                android:paddingStart="18dp"-->
+<!--                android:paddingEnd="18dp"-->
+<!--                android:text="@string/how_to_download"-->
+<!--                android:background="@drawable/button_1_sqrt"/>-->
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/adContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:background="#252525"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <FrameLayout
+                android:id="@+id/ad_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ad_banner_h"
+                android:background="@color/dark_accent">
+
+                <TextView
+                    android:id="@+id/ad_placeholder_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:textColor="#A6A6A6"
+                    android:fontFamily="@font/nova_reg"
+                    android:textSize="14sp"
+                    android:text="AD"
+                    android:padding="7dp"
+                    android:background="@drawable/ad_placeholder_round"/>
+
+            </FrameLayout>
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

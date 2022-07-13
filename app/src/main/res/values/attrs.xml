@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="progressBarThickness" format="integer" />
+        <attr name="progress" format="float" />
+        <attr name="progressbarColor" format="integer" />
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelTextView">
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="spinner" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MyAppBar">
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="MyPickerAppBar">
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="MyEditingAppBar">
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="MyEditingPickerAppBar">
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="ProfileImageView">
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:src" />
+        <attr name="croper" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+</resources>

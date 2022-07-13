@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/share"
+            android:text="@string/share"
+            style="@style/sheet_menu"
+            android:background="@drawable/menu_button_top"/>
+
+        <TextView
+            android:id="@+id/ttk"
+            android:text="@string/view_on_tiktok"
+            style="@style/sheet_menu"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/menu_button_midlle"/>
+
+        <TextView
+            android:id="@+id/find_music"
+            android:text="@string/search_video_music"
+            style="@style/sheet_menu"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/menu_button_midlle"/>
+
+        <TextView
+            android:id="@+id/delete"
+            android:text="@string/delete"
+            style="@style/sheet_menu"
+            android:layout_marginTop="1dp"
+            android:textColor="#E91E47"
+            android:background="@drawable/menu_button_bottom"/>
+
+        <TextView
+            android:id="@+id/dismiss"
+            android:text="@string/close_"
+            style="@style/sheet_menu"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/menu_button_close"/>
+
+    </LinearLayout>
+</LinearLayout>

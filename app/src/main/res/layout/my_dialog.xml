@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_margin="50dp"
+    android:background="@drawable/dialog_1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nova_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nova_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text=""/>
+
+
+    <TextView
+        android:id="@+id/btn_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:fontFamily="@font/nova_bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/ok"
+        android:background="@drawable/button_1_sqrt"/>
+
+    <TextView
+        android:id="@+id/btn_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:fontFamily="@font/nova_bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/placeholder_bg"
+        android:visibility="gone"
+        android:textAllCaps="true"
+        android:text="@string/close"/>
+
+</LinearLayout>
